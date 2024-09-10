@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simon Scowen’s Blog</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f8ff;
+            color: #333;
+        }
+        header {
+            background-color: #ff6347;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        h1 {
+            margin: 0;
+            font-size: 3em;
+        }
+        nav {
+            background-color: #ffb347;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            margin: 0 15px;
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .content {
+            padding: 20px;
+        }
+        section {
+            margin-bottom: 40px;
+        }
+        h2 {
+            color: #ff4500;
+        }
+        .recommendation {
+            background-color: #90ee90;
+            padding: 10px;
+            border-radius: 8px;
+        }
+        .avoid {
+            background-color: #ffcccb;
+            padding: 10px;
+            border-radius: 8px;
+        }
+        footer {
+            background-color: #ff6347;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Simon Scowen’s Blog</h1>
+    </header>
+
+    <nav>
+        <a href="#about">About Me</a>
+        <a href="#recommendations">Recommendations</a>
+        <a href="#avoid">Places to Avoid</a>
+    </nav>
+
+    <div class="content">
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Welcome to my blog! I'm Simon Scowen, a passionate traveler who loves exploring new places and sharing experiences. Over the years, I’ve visited some of the most beautiful locations across the globe. Here, you’ll find my travel stories, recommendations, and a few places I’d advise you to avoid!</p>
+        </section>
+
+        <section id="recommendations">
+            <h2>Places I Recommend</h2>
+            <div class="recommendation">
+                <h3>1. Bali, Indonesia</h3>
+                <p>A tropical paradise! Bali offers stunning beaches, vibrant culture, and serene landscapes. I highly recommend staying at <strong>The Ubud Village Resort</strong>, a perfect retreat for relaxation.</p>
+            </div>
+            <div class="recommendation">
+                <h3>2. Kyoto, Japan</h3>
+                <p>For a deep cultural experience, Kyoto is unmatched. The temples, gardens, and traditional teahouses are magical. I had an amazing stay at <strong>Gion Hatanaka</strong>, a ryokan that gives you a true Japanese experience.</p>
+            </div>
+        </section>
+
+        <section id="avoid">
+            <h2>Places I Wouldn't Stay Again</h2>
+            <div class="avoid">
+                <h3>1. Paris, France</h3>
+                <p>Although Paris is beautiful, I had an underwhelming stay at <strong>Hotel XYZ</strong>. The location was far from major attractions, and the service left a lot to be desired.</p>
+            </div>
+            <div class="avoid">
+                <h3>2. Bangkok, Thailand</h3>
+                <p>The city is vibrant, but my stay at <strong>Hotel ABC</strong> was not up to standard. The room was cramped, and the staff wasn’t very helpful.</p>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Simon Scowen’s Blog - All Rights Reserved</p>
+    </footer>
+
+</body>
+</html>
